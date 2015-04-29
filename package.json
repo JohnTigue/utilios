@@ -1,0 +1,34 @@
+{
+  "name": "utilios",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Modulized project independent utility code (logging, http, Promises, etc.) ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JohnTigue/utilios.git"
+  },
+  "keywords": [
+    "SuperAgent",
+    "HTTP",
+    "Bunyan",
+    "logging",
+    "Promises"
+  ],
+  "author": "John Tigue",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JohnTigue/utilios/issues"
+  },
+  "homepage": "https://github.com/JohnTigue/utilios",
+  "dependencies": {
+    "bunyan": "^1.3.5",
+    "bunyan-debug-stream": "^1.0.5"
+  },
+  "devDependencies": {
+    "must": "^0.12.0"
+  }
+}
